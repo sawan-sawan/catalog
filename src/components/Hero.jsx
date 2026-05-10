@@ -14,7 +14,7 @@ export default function Hero() {
     <section className="hero-section">
       <div className="hero-content">
         <span className="eyebrow">Avichal Modi</span>
-        <h1>Smart CNC Plasma, Flame & Laser Cutting Machines</h1>
+        <h1>Smart CNC Plasma, Flame  & Laser Cutting Machines</h1>
         <p>
           Explore professional cutting machine categories made for fabrication,
           metal cutting, plate cutting, signage, gates, grills and industrial
