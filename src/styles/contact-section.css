@@ -1,0 +1,129 @@
+.contact-section {
+  padding-top: 34px;
+  scroll-margin-top: 95px;
+}
+
+.contact-panel {
+  background:
+    radial-gradient(circle at top right, rgba(15, 106, 168, 0.35), transparent 30%),
+    #071a2b;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 36px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 30px;
+  overflow: hidden;
+  box-shadow: 0 24px 65px rgba(12, 35, 55, 0.16);
+}
+
+.contact-left span {
+  display: inline-flex;
+  background: rgba(119, 199, 255, 0.14);
+  color: #77c7ff;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+
+.contact-left h2 {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1;
+  letter-spacing: -1.2px;
+}
+
+.contact-left p {
+  color: #b9c9d6;
+  line-height: 1.7;
+  margin: 16px 0 24px;
+}
+
+.contact-whatsapp-btn {
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 14px;
+  background: #ffffff;
+  color: #082b46;
+  text-decoration: none;
+  font-weight: 900;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  transition: 0.25s ease;
+}
+
+.contact-whatsapp-btn:hover {
+  transform: translateY(-3px);
+  background: #eaf4ff;
+}
+
+.contact-list {
+  display: grid;
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.contact-item svg {
+  color: #77c7ff;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.contact-item strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.contact-item a {
+  display: block;
+  color: #b9c9d6;
+  text-decoration: none;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.contact-item a:hover {
+  color: #ffffff;
+}
+
+.contact-item p {
+  margin: 0;
+  color: #b9c9d6;
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .contact-panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-panel {
+    padding: 24px 18px;
+    border-radius: 24px;
+  }
+
+  .contact-whatsapp-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-item {
+    padding: 15px;
+    border-radius: 16px;
+  }
+}
